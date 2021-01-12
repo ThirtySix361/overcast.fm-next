@@ -1,6 +1,6 @@
 { 
 	
-	"version": "1.1", 
+	"version": "1.2", 
 	"manifest_version": 2, 
 	"name": "Overcast.fm next episode button",
 	"description": "adds a 'next' button to your overcast player", 	
