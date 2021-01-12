@@ -21,7 +21,7 @@ function init() {
 		return response.text();
 	}).then(function(e){
 		window.response = stringToDom(e);
-		search = window.location.href.split("/+")[1];
+		search = (window.location.href.split("/+")[1]).split("#")[0];
 		let url = false;
 		try{
 			url = response.querySelectorAll("a[href*='"+search+"']")[0].previousElementSibling.href;
