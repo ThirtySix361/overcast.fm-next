@@ -66,3 +66,5 @@ function new_speed() {
 }
 
 if ( location.href.includes("https://overcast.fm/+") ) { init(); replace_del(); new_speed(); };
+
+document.body.style.backgroundColor = "#444"
